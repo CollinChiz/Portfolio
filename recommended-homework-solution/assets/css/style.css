@@ -132,6 +132,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  text-align: center;
 }
 
 /* portfolio page */
@@ -142,6 +143,8 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .work:nth-child(even) {
@@ -155,17 +158,36 @@ h3, h2 {
 }
 
 .work h3 {
-  position: absolute;
-  bottom: 20px;
+  /* position: absolute;
+  bottom: 20px; */
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
+  margin-top: 0px;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+
+.work p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.work a {
+  padding: 5px;
+  background-color: #4aaaa5;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.a {
+  background-color: #4aaaa5;
 }
 
 .auth-image {
@@ -215,6 +237,8 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
   @media screen and (max-width: 980px) {
     .main-section {
       max-width: 70%;
